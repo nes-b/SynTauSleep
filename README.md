@@ -16,16 +16,17 @@ This repository contains scripts and metadata of our study on sleep phenotypes i
 
 Please see https://www.r-project.org/ 
 
-- The Supplemtary Table 1 is available with the main manuscript on *___* (tbd) and the modified version will be made available here *___* (tbd, after acceptance of the manuscript)
-
 ### Code Execution
 
-The code (EDA_cystinosis.Rmd) can be run as RMarkdown-file from within R.
+The code (analysis_syntausleep.R) can be run as from within R.
 
 
 ## Contributing
 
-Dr. Simon Schreiner
+Nils Briel#, Céline Marti#, Esther Werth, Rositsa Poryazova, Philipp Valko, Christian R. Baumann*, Heide Baumann-Vogel*, Simon J. Schreiner*
+#equal contribution
+*equal contribution
+
 
 Department of Neurology \
 University Hospital Zurich \
@@ -41,14 +42,14 @@ Switzerland
 ## Citation
 
 If you use parts of this workflow, please cite:
-- the original article: [TBD]
-- This repository: https://github.com/nes-b/cystinosis 
+    The original article will be added upon acceptance
+    This tool's repository: https://github.com/nes-b/SynTauSleep
+    This tool: https://nbneuro.shinyapps.io/SynTauSleepTool/
 
 
 ## Ethics statement
 
-The study was carried out in compliance with the Helsinki Declaration and with the guidelines of the Ethical Committee of our Institution. 
-The patients have given their written informed consent.
+The project has been reviewed and confirmed by the Cantonal Ethics Committee Zurich. The study complies with the Helsinki Declaration. Informed consent has been given by all participatns.
 
 
 ## License
@@ -58,5 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* We are gratefull to all patients and their relatives for making this research possible. 
-* Furthermore we would like to thank all authors for their detailed characteriztaion of their case studies, which allowed us to conduct these studies.
+* We are gratefull to all people who supported this research. 
