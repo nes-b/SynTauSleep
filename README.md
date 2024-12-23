@@ -24,6 +24,7 @@ The code (analysis_syntausleep.R) can be run as from within R.
 ## Contributing
 
 Nils Briel#, Céline Marti#, Esther Werth, Rositsa Poryazova, Philipp Valko, Christian R. Baumann*, Heide Baumann-Vogel*, Simon J. Schreiner*
+
 #equal contribution
 *equal contribution
 
@@ -42,9 +43,9 @@ Switzerland
 ## Citation
 
 If you use parts of this workflow, please cite:
-    The original article will be added upon acceptance
-    This tool's repository: https://github.com/nes-b/SynTauSleep
-    This tool: https://nbneuro.shinyapps.io/SynTauSleep/
+* The original article will be added upon acceptance
+* This tool's repository: https://github.com/nes-b/SynTauSleep
+* This tool: https://nbneuro.shinyapps.io/SynTauSleep/
 
 
 ## Ethics statement
