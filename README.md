@@ -45,7 +45,7 @@ Switzerland
 If you use parts of this workflow, please cite:
 * The original article will be added upon acceptance
 * This tool's repository: https://github.com/nes-b/SynTauSleep
-* This tool: https://nbneuro.shinyapps.io/SynTauSleep/
+* This tool: https://nbneuro.shinyapps.io/SynTauSleepTool/
 
 
 ## Ethics statement
