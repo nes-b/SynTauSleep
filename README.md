@@ -37,13 +37,13 @@ Switzerland
 
 ## Maintenance Git-Hub Repository
 
-* **Dr. Nils Briel** - [nes-b](https://github.com/nes-b)
+* Dr. Nils Briel - [nes-b](https://github.com/nes-b)
 
 
 ## Citation
 
 If you use parts of this workflow, please cite:
-* The original article will be added upon acceptance
+* The print: medRxiv 2025.03.13.25323915; doi: https://doi.org/10.1101/2025.03.13.25323915 
 * This tool's repository: https://github.com/nes-b/SynTauSleep
 * This tool: https://nbneuro.shinyapps.io/SynTauSleepTool/
 
