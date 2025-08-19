@@ -681,12 +681,8 @@ legend("bottomright", legend = c("RBD", "RBD+Sleep", "RBD+Sleep+Demo"), col = c(
 dev.off()
 
 
-# 6. Differentiate MSA from other Syn
-df <- subset(df, Proteinopathy == "Syn")
-df$MSA_vs_LB <- ifelse(df$Dx_label == "MSA", "MSA", "LBD")
-df$MSA_vs_LB <- factor(df$MSA_vs_LB, levels = c("LBD", "MSA"))
-
-f_msa <- formula("MSA_vs_LB ~ RBD + RWA + R_perc_spt + Sl_eff_perc + WAKE_perc_spt + Arousal_index + N2_perc_spt + TST_min")
+## 6.2 MSA vs. LBD Model ####
+f_msa <- formula("MSA_vs_LB ~ RBD + RWA + R_perc_spt + Sl_eff_perc + WAKE_perc_spt + Arousal_index + N2_perc_spt + TST_min + stridor")
 
 set.seed(123)
 resamp_msa <- createResample(df$MSA_vs_LB, times = 500)
@@ -752,3 +748,6 @@ m_msa <- glm(f_msa, data = df, family = binomial)
 saveRDS(m_msa, "../results/logmod_msa.Rds")
 
 sessionInfo()
+
+sessionInfo()
+
