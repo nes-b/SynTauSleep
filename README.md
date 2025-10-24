@@ -43,7 +43,8 @@ Switzerland
 ## Citation
 
 If you use parts of this workflow, please cite:
-* The print: medRxiv 2025.03.13.25323915; doi: https://doi.org/10.1101/2025.03.13.25323915 
+* The article in Parkinsonism & Related Disorders: doi: https://doi.org/10.1016/j.parkreldis.2025.108100
+* The preprint: medRxiv 2025.03.13.25323915; doi: https://doi.org/10.1101/2025.03.13.25323915 
 * This tool's repository: https://github.com/nes-b/SynTauSleep
 * This tool: https://nbneuro.shinyapps.io/SynTauSleepTool/
 
